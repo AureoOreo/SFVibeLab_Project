@@ -25,7 +25,7 @@ Each application has its own setup instructions. Neither depends on the other.
 
 ### 1. React Account Explorer
 1. Navigate to the project folder:
-   ```bash
+```bash
    cd react-account-explorer
 
 ```
