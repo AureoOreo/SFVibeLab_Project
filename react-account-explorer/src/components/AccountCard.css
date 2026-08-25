@@ -1,0 +1,31 @@
+.account-card {
+  background-color: #ffffff;
+  border: 1px solid #dddbda;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.account-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-card-header {
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.account-card-title {
+  margin: 0;
+  color: #0176d3;
+  font-size: 1.1rem;
+}
+
+.account-card-body p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  color: #3e3e3c;
+}

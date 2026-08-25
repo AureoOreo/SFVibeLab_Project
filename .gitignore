@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+.sfdx/
+.sf/
+.localdevserver/
+.vscode/
+.DS_Store
+Thumbs.db

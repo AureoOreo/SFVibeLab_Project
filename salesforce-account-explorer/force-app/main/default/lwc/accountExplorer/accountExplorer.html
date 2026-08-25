@@ -1,0 +1,44 @@
+<template>
+    <lightning-card title="Account Explorer" icon-name="standard:account">
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                type="search" 
+                label="Buscar cuentas" 
+                placeholder="Filtrar por nombre o industria..." 
+                value={searchTerm}
+                onchange={handleSearchChange}
+                class="slds-m-bottom_medium">
+            </lightning-input>
+
+            <template if:true={isLoading}>
+                <div class="slds-is-relative slds-p-around_xx-large">
+                    <lightning-spinner alternative-text="Cargando cuentas..." size="medium"></lightning-spinner>
+                </div>
+            </template>
+
+            <template if:false={isLoading}>
+                <template if:true={hasAccounts}>
+                    <div class="slds-grid slds-wrap slds-gutters">
+                        <template for:each={filteredAccounts} for:item="acc">
+                            <div key={acc.Id} class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-3 slds-m-bottom_medium">
+                                <lightning-card title={acc.Name} icon-name="standard:record">
+                                    <div class="slds-p-horizontal_small">
+                                        <p><strong>Industria:</strong> {acc.IndustryDisplay}</p>
+                                        <p><strong>Teléfono:</strong> {acc.PhoneDisplay}</p>
+                                    </div>
+                                </lightning-card>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+
+                <template if:false={hasAccounts}>
+                    <div class="slds-illustration slds-illustration_small slds-text-align_center slds-p-around_large">
+                        <div class="slds-text-heading_medium slds-m-top_small">No se encontraron cuentas</div>
+                        <div class="slds-text-body_regular slds-text-color_weak">Intenta con otro término de búsqueda.</div>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>
