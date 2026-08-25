@@ -1,13 +1,17 @@
-```markdown
 # Professional Readiness Sprint — Aureo Alfaro
+
 
 Individual submission for the **SF Vibe Lab Professional Readiness Sprint (UADY)**.
 
+
 This repository contains two applications that browse the same kind of data — company accounts — built on two different stacks: a **Lightning Web Component (LWC)** running inside a Salesforce org against live records, and a local **React application** running against a static JSON file.
+
 
 ---
 
+
 ## Contents
+
 
 | Folder / File | What it is |
 | :--- | :--- |
@@ -18,8 +22,6 @@ This repository contains two applications that browse the same kind of data — 
 | `README.md` | Comprehensive documentation, setup guide, architecture mapping, and project overview. |
 
 ---
-
-```
 
 ## Quick Start
 
