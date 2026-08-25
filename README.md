@@ -19,6 +19,8 @@ This repository contains two applications that browse the same kind of data — 
 
 ---
 
+```
+
 ## Quick Start
 
 Each application has its own setup instructions. Neither depends on the other.
