@@ -140,6 +140,12 @@ Proof of completion for the three required Trailhead badges on the public profil
 *Figure 9: Completed Trailhead badges for Agentforce 360, VS Code Quick Start, and LWC Quick Start.*
 
 ---
+## Demo Video
+
+🎬 **[Video](https://alumnosuady-my.sharepoint.com/:v:/g/personal/a20201685_alumnos_uady_mx/IQBE0yRI6z5WRLD41vNmJnAOAZ7ocN6gRqeJeooXxYe_ugo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LyWy7O)**
+*(A walkthrough demonstrating both React and LWC applications, architecture comparison, and AI work log).*
+
+---
 
 ## Trailhead Assignments
 
